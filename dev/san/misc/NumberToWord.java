@@ -1,12 +1,10 @@
 package dev.san.misc;
 
 /**
- * 
- * @author sandeep.hebbar
+ * Transforms a Number into plain Words.
+ * @author Sandeep Hebbar
  * @version 1.0.0
  * @since 2017
- * Input Number should be within UPPER_LIMIT and LOWER_LIMIT 
- * Example: 1000000000 > INPUT_NUMBER > -1000000000 
  */
 public class NumberToWord {
 
@@ -25,6 +23,9 @@ public class NumberToWord {
 	private StringBuilder sb;
 	
 	/**
+	 * <p>Input Number should be within UPPER_LIMIT and LOWER_LIMIT.</p>
+	 * <p><u>Example:</u> 1000000000 > INPUT_NUMBER > -1000000000</p>
+	 * 
 	 * @param input : Input number for conversion
 	 */
 	public void numToLiteralConverter(long input) {
